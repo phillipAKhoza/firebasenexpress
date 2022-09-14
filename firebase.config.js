@@ -1,4 +1,4 @@
-
+const firebase = require('firebase');
 
 const firebaseConfig = {
     apiKey: "AIzaSyCqpH7_ixCaQZM3P2fnHSlUeKUCXgNkhUk",
@@ -8,3 +8,7 @@ const firebaseConfig = {
     messagingSenderId: "711553963398",
     appId: "1:711553963398:web:f9a1ac33cebd1544754807"
   };
+
+  firebase.initializeApp(firebaseConfig);
+
+  
